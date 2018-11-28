@@ -1,7 +1,6 @@
 package br.com.paulohpfranco.musicalstructureapp;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -29,14 +28,8 @@ public class MediaPlayer extends LinearLayout {
     TextView mediaplayer_songName;
     TextView mediaplayer_artistName;
 
-    LinearLayout musicplayerLinearLayout;
-
     public MediaPlayer(Context context) {
         super(context);
-
-        Log.v("NewSong", "SongName: "+this.mSongName);
-        Log.v("NewSong", "artistName: "+this.mArtistName);
-        Log.v("NewSong", "mImageResourceId: "+this.mImageResourceId);
     }
 
     public View setNewSong(String songName, String artistName, int ImageResourceId){
@@ -64,7 +57,6 @@ public class MediaPlayer extends LinearLayout {
     }
 
     public static String getmSongName() {
-        Log.v("NewSong", "SongName: "+mSongName);
         return mSongName;
     }
 }

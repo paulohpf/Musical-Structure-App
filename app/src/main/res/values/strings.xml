@@ -4,4 +4,7 @@
     <string name="mainactivity_list_queen">Queen</string>
     <string name="mainactivity_list_tobymac">Toby Mac</string>
     <string name="playlist_explanation">Essa activity mostra todas as músicas do Album Greatest Hits do artista.</string>
+    <string name="listsong_hint_songtitle">Song Title</string>
+    <string name="listsong_hint_albumtitle">Album Title</string>
+    <string name="listsong_hint_artistname">Artist Name</string>
 </resources>

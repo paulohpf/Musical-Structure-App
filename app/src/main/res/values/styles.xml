@@ -17,4 +17,8 @@
         <item name="android:padding">16dp</item>
     </style>
 
+    <style name="mediaplayer_layout">
+        <item name="android:background">#fff</item>
+    </style>
+
 </resources>
