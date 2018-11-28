@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="mainactivity_explanation">Essa é a activity é a principal do aplicativo, utiliza TextViews para chamar outras Activities.</string>
+    <string name="mainactivity_list_queen">Queen</string>
+    <string name="mainactivity_list_tobymac">Toby Mac</string>
+    <string name="playlist_explanation">Essa activity mostra todas as músicas do Album Greatest Hits do artista.</string>
+</resources>
